@@ -1,0 +1,15 @@
+.LoginImages {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.MediumLogo {
+    width: 200px;
+}
+
+.XSLogo {
+    height: 30px;
+}

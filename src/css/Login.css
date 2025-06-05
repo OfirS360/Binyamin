@@ -1,0 +1,50 @@
+@import "Variables.css";
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#loginDiv {
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: fit-content;
+
+  margin: 0;
+}
+
+.LoginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+    text-align: right;
+}
+
+.LoginOptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    margin-top: 10px;
+}
+
+.CheckboxDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+
+    width: 100%;
+}

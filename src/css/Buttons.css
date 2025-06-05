@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+.SubmitBtn {
+    width: 100px;
+    height: 50px;
+
+    background-color: var(--background-color);
+    color: var(--r-text-color);
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+    font-size: large;
+
+    border: 1px solid var(--r-text-color);
+    border-radius: 50px;
+
+    padding: 5px 10px;
+
+    cursor: pointer;
+
+    transition: all 0.5s;
+}
+
+.SubmitBtn:hover {
+  background-color: var(--r-text-color);
+  color: var(--background-color);
+}
+
+.Checkbox {
+  display: none;
+}
+
+.VisualCheckbox {
+  width: 18px;
+  height: 18px;
+  border: 1px solid var(--r-text-color);
+  border-radius: 4px;
+  position: relative;
+
+  transition: all 0.3s;
+}
+
+.Checkbox:checked + .VisualCheckbox::after {
+  content: "✓";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  color: var(--r-text-color);
+}

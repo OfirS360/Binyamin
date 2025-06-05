@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import "Variables.css";
+
+.DefualtTxtInput {
+    border: 1px solid #b9b9b9;
+    border-radius: 20px;
+
+    color: var(--b-text-color);
+
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+
+    height: 25px;
+
+    transition: all 0.3s;
+}
+
+.DefualtTxtInput:hover {
+    border: 1px solid var(--r-text-color);
+}
+
+.DefualtTxtInput:focus {
+    outline: none;
+    border: 1px solid var(--r-text-color);
+}

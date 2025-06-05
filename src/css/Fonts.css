@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import "Variables.css";
+
+.Input-Lable {
+    font-family: 'Heebo', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--r-text-color);
+
+    width: fit-content;
+}
+
+.Remark-Lable {
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--g-text-color);
+
+    margin: 0;
+}
+
+.Header1 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    color: var(--r-text-color);
+}
+
+.TextLink {
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--r-text-color);
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    white-space: nowrap;
+
+    background-size: 0% 1px;
+    transition: background-size 0.3s;
+}
+
+.TextLink:hover {
+    background-size: 100% 1px;
+}
